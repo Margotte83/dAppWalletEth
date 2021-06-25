@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Web3 from 'web3'
 
 import StorageABI from '../contract/storage.json'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -84,18 +84,6 @@ export default function Home() {
         <meta name="description" content="Wallet dApp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* // Responsive meta tag */}
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      {/* //  bootstrap CDN  */}
-      <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous" 
-  />
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-     crossorigin="anonymous"></script>
-
       <main  className={styles.main}>
       {
           isConnectedWeb3

@@ -119,8 +119,6 @@
   border-radius: .3rem;
   float: right;
 }
-
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
