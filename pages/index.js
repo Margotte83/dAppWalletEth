@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
+import logo from '../asset/logo.webp'
 
 import Web3 from 'web3'
 
@@ -88,9 +89,9 @@ export default function Home() {
       {
           isConnectedWeb3
          
-            ? <p><a target="_blank"><img src="https://etherscan.io/images/brandassets/etherscan-logo-circle.png" alt='Etherscan' className={styles.imgEth}></img></a></p>
-      
-            : <button class="btn btn-primary btn-lg" onClick={connectToWeb3}>Connect to web3</button>
+            ? <p><a target="_blank"><Image src={logo} alt='Etherscan' className={styles.imgEth}/></a></p>
+               
+            : <button className="btn btn-primary btn-lg" onClick={connectToWeb3}>Connect to web3</button>
         }
        
         <h1 className={styles.title}>
@@ -102,7 +103,7 @@ export default function Home() {
         <labe>Address: </labe><input type="text" onChange={e => setAddressToSend(e.target.value)} placeholder="Your address" /><br></br>
         <label>Amount:</label><input type="number" onChange={e => setWeiToSend(e.target.value)} placeholder="Eth" />
         <br></br>
-        <button type="button" class="btn btn-secondary" onClick={sendEth}>Send</button>
+        <button type="button" className="btn btn-secondary" onClick={sendEth}>Send</button>
         <h2></h2>
         <h2></h2>
         <p></p>
