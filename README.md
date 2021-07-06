@@ -1,3 +1,23 @@
+# Create a dApp to exchange ethers 👨‍💼♦︎♦︎♦︎↔️🙍‍♀️
+## Objectives of the quest:
+The objective of the quest is simple, to create one of these Ethereum wallets, at least to implement the main functions:
+
+Check your Ethereum balance;
+Send ethers;
+See his wallet on Etherscan via a link.
+
+It's one of the most basic dApps but that doesn't mean it has to be easy to do. ✨
+
+This quest allows you to practice on Web3Js and therefore to gain skills in this library. 🚀
+
+A wallet implements these functions with web3Js (of course there is the equivalent on EthersJs):
+
+display the wallet connected with this function web3.eth.getAccounts ();
+display the balance with web3.eth.getBalance (<address>);
+send ethers with the function web3.eth.sendTransaction ({from: addr, to: toAddress, value: amountToSend}).
+
+  --------------------------------------------------------------------------------------------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
