@@ -1,37 +1,13 @@
 html,
 body {
-  padding: 8px;
-  margin: 8px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-a {
-  color: inherit;
-  text-decoration: none;
 }
 .btn-group-lg>.btn, .btn-lg {
   padding: .5rem 1rem;
   font-size: 1.25rem;
   border-radius: .3rem;
   float: right;
-}
-img, svg {
-  vertical-align: middle;
-  width: 100px;
-  display: flex;
-  float: right;
-  padding: 8px;
-  margin: 8px;
-}
-btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
-  margin-top: 20px;
-}
-label {
-  display: inline-block;
-  margin-top: 10px;
 }
 .btn-secondary {
   color: #fff;
