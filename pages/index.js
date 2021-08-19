@@ -128,7 +128,7 @@ export default function Home() {
           </p>
 
           <div className={"row"}>
-            <div className={"col-6"}>
+            <div className={"col-sm-6"}>
               <div className="row mt-2">
                 <label className="col-4 col-form-label">Address: </label>
                 <div className={"col-8 p-0"}>
